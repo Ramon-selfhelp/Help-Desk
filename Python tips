@@ -1,0 +1,8 @@
+#Locate your python path
+import sys 
+print(sys.path)
+
+
+#locate yous site-packages repository path
+import site
+site.getsitepackages()

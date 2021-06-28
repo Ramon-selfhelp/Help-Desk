@@ -3,6 +3,6 @@ import sys
 print(sys.path)
 
 
-#locate yous site-packages repository path
+#locate your site-packages repository path
 import site
 site.getsitepackages()
